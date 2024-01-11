@@ -244,7 +244,7 @@
 
 Ось як виглядає GameHub в Unity Editor:
 
-![GameHub UnityEditor Hierarchy](https://www.dropbox.com/scl/fi/zmsa8hx4mk8ixwk6vl0ff/GameHub.png?rlkey=iv5kq0obtx512zg3yvb2n3w71&raw=1)
+![GameHub UnityEditor Hierarchy](https://github.com/Shchack/BestPracticesJamGame/blob/main/guide_images/GameHub.png&raw=true)
 
 ---
 ### 2.2. Game Events
@@ -327,7 +327,7 @@
 ### 3.1. Уникайте вкладення префабів
 
 Префаби - дуже корисний інструмент конфігурації сцени та перевикористання логіки чи сутностей (*entities*), та, все ж, він має свої мінуси. Зручне та якісне налаштування префабів потребує часу, особливо в процесі активної розробки (а гейм джем якраз час дуже активної розробки). Тому, потрібно бути обережним, щоб не створити складні префаби, в яких вкладені інші префаби, оскільки швидше за все ви дуже часто модифікуватимете саме об'єкти на сцені і в якийсь момент забудете додати ці зміни до префабу. Хоча, якщо ж у вас вже є підхід до використання префабів і вироблена звичка тримати префаби в актуальному стані, то, мабуть, великих проблем з префабами у вас не виникне. Титоріалів та статей про роботу з префабами вже є дуже багато, наприклад [How to use Prefabs in Unity - Game Dev Beginner](https://gamedevbeginner.com/how-to-use-prefabs-in-unity/)
-![Prefabs](https://www.dropbox.com/scl/fi/7l5ozk79xjzx1la65klqs/prefabs.png?rlkey=j22abd5es5tprcwamcztz0lxg&raw=1)
+![Prefabs](https://github.com/Shchack/BestPracticesJamGame/blob/main/guide_images/prefabs.png&raw=true)
 
 ---
 ### 3.2. Використовуйте namespace
@@ -465,7 +465,7 @@
 
 Тепер під час гри ми можемо викликати цей метод з меню в Інспекторі
 
-![Give 1000 Coins](https://www.dropbox.com/scl/fi/itm0f5uni59gb2wcoywwj/context_menu.png?rlkey=8yx6rzc0pvtztjo8nqqw5i7s3&raw=1)
+![Give 1000 Coins](https://github.com/Shchack/BestPracticesJamGame/blob/main/guide_images/context_menu.png&raw=true)
 
 ---
 ### 4.2. Gizmos
@@ -507,7 +507,7 @@
 
 Тепер під час гри у верхньому лівому куті вікна Game буде кнопка Respawn:
 
-![Respawn](https://www.dropbox.com/scl/fi/v26aaxann7p78fjhcqlsg/respawn_ongui.png?rlkey=i9plorlwc6gvo0upwal2l6y1b&raw=1)
+![Respawn](https://github.com/Shchack/BestPracticesJamGame/blob/main/guide_images/respawn_ongui.png&raw=true)
 
 ---
 ## Наостанок
