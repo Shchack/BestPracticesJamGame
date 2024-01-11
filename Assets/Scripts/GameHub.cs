@@ -3,7 +3,7 @@ namespace BC.BestGame
     public class GameHub : Singleton<GameHub>
     {
         public GameEventSystem Events { get; private set; }
-        public GamePersistenceSystem Storage { get; private set; }
+        public GameStorageSystem Storage { get; private set; }
         public IAudioSystem Audio { get; private set; }
 
         public bool IsInitialized { get; private set; }
@@ -11,7 +11,7 @@ namespace BC.BestGame
         public override void Init()
         {
             Events = new GameEventSystem();
-            Storage = new GamePersistenceSystem();
+            Storage = new GameStorageSystem();
 
             if (TryGetComponent(out IAudioSystem audioSystem))
             {
