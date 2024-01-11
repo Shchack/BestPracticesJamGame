@@ -78,7 +78,7 @@
     }
 
 Структура в UnityEditor виглядає ось так:
-![Interaction Demo UnityEditor Hierarchy](https://github.com/Shchack/BestPracticesJamGame/blob/main/interaction_demo_hierarchy.png?raw=true)
+![Interaction Demo UnityEditor Hierarchy](https://github.com/Shchack/BestPracticesJamGame/blob/main/guide_images/interaction_demo_hierarchy.png?raw=true)
  
 Завдяки цьому простенькому трюку ми тепер можемо:
 - Якщо захочемо підняти книжку, то потрібно просто замінити компонент *Readable* на *Pickable*
