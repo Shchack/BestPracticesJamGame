@@ -17,24 +17,24 @@
 
 ## Ключові моменти
 
-[1. Додавання чи заміна компонентів чи логіки](#додавання-чи-заміна-компонентів-чи-логіки)
- - [1.1 Поліморфізм](#поліморфізм)
- - [1.2 Композиція замість успадкування](#композиція-замість-успадкування)
+[1. Додавання чи заміна компонентів чи логіки](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#1-%D0%B4%D0%BE%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D1%87%D0%B8-%D0%B7%D0%B0%D0%BC%D1%96%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%96%D0%B2-%D1%87%D0%B8-%D0%BB%D0%BE%D0%B3%D1%96%D0%BA%D0%B8)
+ - [1.1 Поліморфізм](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#11-%D0%BF%D0%BE%D0%BB%D1%96%D0%BC%D0%BE%D1%80%D1%84%D1%96%D0%B7%D0%BC)
+ - [1.2 Композиція замість успадкування](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#12-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D1%96%D1%8F-%D0%B7%D0%B0%D0%BC%D1%96%D1%81%D1%82%D1%8C-%D1%83%D1%81%D0%BF%D0%B0%D0%B4%D0%BA%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F)
 
-[2. Комунікація між компонентами чи системами](#комунікація-між-компонентами-чи-системами)
- - [2.1. GameHub](#gamehub)
- - [2.2. Game Events](#game-events)
+[2. Комунікація між компонентами чи системами](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#2--%D0%BA%D0%BE%D0%BC%D1%83%D0%BD%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F-%D0%BC%D1%96%D0%B6-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%B0%D0%BC%D0%B8-%D1%87%D0%B8-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D0%BC%D0%B8)
+ - [2.1. GameHub](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#21-gamehub)
+ - [2.2. Game Events](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#22-game-events)
 
-[3. Простий рефакторинг](#простий-рефакторинг)
- - [3.1. Уникайте вкладення префабів](#уникайте-вкладення-префабів)
- - [3.2. Використовуйте namespace](#використовуйте-namespace)
- - [3.3. GameStorageSystem з PlayerPrefs](#gamestoragesystem-з-playerprefs)
- - [3.4. Utils: Cтатичні класи та розширення](#utils-cтатичні-класи-та-розширення)
+[3. Простий рефакторинг](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#3-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%B8%D0%B9-%D1%80%D0%B5%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3)
+ - [3.1. Уникайте вкладення префабів](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#31-%D1%83%D0%BD%D0%B8%D0%BA%D0%B0%D0%B9%D1%82%D0%B5-%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BF%D1%80%D0%B5%D1%84%D0%B0%D0%B1%D1%96%D0%B2)
+ - [3.2. Використовуйте namespace](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#32-%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%83%D0%B9%D1%82%D0%B5-namespace)
+ - [3.3. GameStorageSystem з PlayerPrefs](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#33-gamestoragesystem-%D0%B7-playerprefs)
+ - [3.4. Utils: Cтатичні класи та розширення](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#34-utils-c%D1%82%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D1%96-%D0%BA%D0%BB%D0%B0%D1%81%D0%B8-%D1%82%D0%B0-%D1%80%D0%BE%D0%B7%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D1%8F)
 
-[4. Виловлювання багів](#виловлювання-багів)
- - [4.1. ContextMenu](#contextmenu)
- - [4.2. Gizmos](#gizmos)
- - [4.3. OnGUI](#ongui)
+[4. Виловлювання багів](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#4-%D0%B2%D0%B8%D0%BB%D0%BE%D0%B2%D0%BB%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B1%D0%B0%D0%B3%D1%96%D0%B2)
+ - [4.1. ContextMenu](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#41-contextmenu)
+ - [4.2. Gizmos](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#42-gizmos)
+ - [4.3. OnGUI](https://github.com/Shchack/BestPracticesJamGame/tree/main?tab=readme-ov-file#43-ongui)
 
 ---
 ## 1. Додавання чи заміна компонентів чи логіки
